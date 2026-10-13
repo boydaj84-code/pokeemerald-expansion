@@ -75,6 +75,9 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_GALLADITE
 	.2byte ITEM_AUDINITE
 	.2byte ITEM_DIANCITE
+	.2byte ITEM_GRISEOUS_ORB
+	.2byte ITEM_ADAMANT_CRYSTAL
+	.2byte ITEM_LUSTROUS_GLOBE
 	pokemartlistend
 
 OldaleTown_Mart_ExpandedItems::
@@ -147,6 +150,9 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_GALLADITE
 	.2byte ITEM_AUDINITE
 	.2byte ITEM_DIANCITE
+	.2byte ITEM_GRISEOUS_ORB
+	.2byte ITEM_ADAMANT_CRYSTAL
+	.2byte ITEM_LUSTROUS_GLOBE
 	pokemartlistend
 
 OldaleTown_Mart_EventScript_Woman::
