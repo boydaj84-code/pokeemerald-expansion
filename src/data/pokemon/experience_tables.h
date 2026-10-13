@@ -773,8 +773,8 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_FLUCTUATING(246),
     EXP_FLUCTUATING(247),
     EXP_FLUCTUATING(248),
-    EXP_FLUCTUATING(249),
-    EXP_FLUCTUATING(250),
+    0x7FFFFFFF,
+    0x7FFFFFFF,
     },
     { // Medium Slow
         0, // 0
