@@ -78,6 +78,8 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_GRISEOUS_ORB
 	.2byte ITEM_ADAMANT_CRYSTAL
 	.2byte ITEM_LUSTROUS_GLOBE
+	.2byte ITEM_RUSTY_SWORD
+	.2byte ITEM_RUSTY_SHIELD
 	pokemartlistend
 
 OldaleTown_Mart_ExpandedItems::
@@ -153,6 +155,8 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_GRISEOUS_ORB
 	.2byte ITEM_ADAMANT_CRYSTAL
 	.2byte ITEM_LUSTROUS_GLOBE
+	.2byte ITEM_RUSTY_SWORD
+	.2byte ITEM_RUSTY_SHIELD
 	pokemartlistend
 
 OldaleTown_Mart_EventScript_Woman::
