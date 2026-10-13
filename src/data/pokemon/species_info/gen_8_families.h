@@ -8326,12 +8326,12 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
 
     [SPECIES_ENAMORUS_THERIAN] =
     {
-        .baseHP        = 74,
-        .baseAttack    = 115,
-        .baseDefense   = 110,
-        .baseSpeed     = 46,
-        .baseSpAttack  = 135,
-        .baseSpDefense = 100,
+        .baseHP        = 94,
+        .baseAttack    = 135,
+        .baseDefense   = 130,
+        .baseSpeed     = 66,
+        .baseSpAttack  = 155,
+        .baseSpDefense = 120,
         .types = MON_TYPES(TYPE_FAIRY, TYPE_FLYING),
         .catchRate = 3,
         .expYield = 116,
