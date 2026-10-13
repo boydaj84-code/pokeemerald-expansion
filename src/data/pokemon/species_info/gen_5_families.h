@@ -13537,7 +13537,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseAttack    = 120,
         .baseDefense   = 90,
         .baseSpeed     = 95,
-        .baseSpAttack  = 170,
+        .baseSpAttack  = 250,
         .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_DRAGON, TYPE_ICE),
         .catchRate = 3,
@@ -13606,7 +13606,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_KYUREM_BLACK] =
     {
         .baseHP        = 125,
-        .baseAttack    = 170,
+        .baseAttack    = 250,
         .baseDefense   = 100,
         .baseSpeed     = 95,
         .baseSpAttack  = 120,
