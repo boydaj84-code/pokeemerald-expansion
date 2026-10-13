@@ -6811,12 +6811,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_PALKIA_ORIGIN] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 120,
-        .baseSpAttack  = 150,
-        .baseSpDefense = 120,
+        .baseHP        = 100,
+        .baseAttack    = 200,
+        .baseDefense   = 50,
+        .baseSpeed     = 200,
+        .baseSpAttack  = 200,
+        .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_WATER, TYPE_DRAGON),
         .catchRate = 3,
         .expYield = 340,
