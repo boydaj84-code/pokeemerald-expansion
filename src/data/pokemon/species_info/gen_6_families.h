@@ -7314,11 +7314,11 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
     [SPECIES_HOOPA_CONFINED] =
     {
         .baseHP        = 80,
-        .baseAttack    = 110,
+        .baseAttack    = 50,
         .baseDefense   = 60,
         .baseSpeed     = 70,
-        .baseSpAttack  = 150,
-        .baseSpDefense = 130,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_PSYCHIC, TYPE_GHOST),
         .catchRate = 3,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 300 : 270,
