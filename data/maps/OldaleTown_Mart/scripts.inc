@@ -80,6 +80,8 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_LUSTROUS_GLOBE
 	.2byte ITEM_RUSTY_SWORD
 	.2byte ITEM_RUSTY_SHIELD
+	.2byte ITEM_REVEAL_GLASS
+	.2byte ITEM_PRISON_BOTTLE
 	pokemartlistend
 
 OldaleTown_Mart_ExpandedItems::
@@ -157,6 +159,8 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_LUSTROUS_GLOBE
 	.2byte ITEM_RUSTY_SWORD
 	.2byte ITEM_RUSTY_SHIELD
+	.2byte ITEM_REVEAL_GLASS
+	.2byte ITEM_PRISON_BOTTLE
 	pokemartlistend
 
 OldaleTown_Mart_EventScript_Woman::
