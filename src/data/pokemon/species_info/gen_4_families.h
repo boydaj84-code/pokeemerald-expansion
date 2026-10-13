@@ -6664,12 +6664,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_DIALGA_ORIGIN] =
     {
-        .baseHP        = 150,
-        .baseAttack    = 150,
-        .baseDefense   = 150,
-        .baseSpeed     = 150,
-        .baseSpAttack  = 150,
-        .baseSpDefense = 150,
+        .baseHP        = 135,
+        .baseAttack    = 135,
+        .baseDefense   = 135,
+        .baseSpeed     = 135,
+        .baseSpAttack  = 135,
+        .baseSpDefense = 135,
         .types = MON_TYPES(TYPE_STEEL, TYPE_DRAGON),
         .catchRate = 3,
         .expYield = 340,
@@ -6811,12 +6811,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_PALKIA_ORIGIN] =
     {
-        .baseHP        = 100,
+        .baseHP        = 75,
         .baseAttack    = 200,
-        .baseDefense   = 50,
+        .baseDefense   = 75,
         .baseSpeed     = 200,
         .baseSpAttack  = 200,
-        .baseSpDefense = 50,
+        .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_WATER, TYPE_DRAGON),
         .catchRate = 3,
         .expYield = 340,
@@ -7187,7 +7187,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseAttack    = 50,
         .baseDefense   = 200,
         .baseSpeed     = 50,
-        .baseSpAttack  = 150,
+        .baseSpAttack  = 100,
         .baseSpDefense = 200,
         .types = MON_TYPES(TYPE_GHOST, TYPE_DRAGON),
         .catchRate = 3,
