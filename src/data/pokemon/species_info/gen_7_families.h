@@ -7072,8 +7072,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 #if P_FUSION_FORMS
     [SPECIES_NECROZMA_DUSK_MANE] =
     {
-        .baseHP        = 97,
-        .baseAttack    = 157,
+        .baseHP        = 207,
+        .baseAttack    = 207,
         .baseDefense   = 127,
         .baseSpeed     = 77,
         .baseSpAttack  = 113,
@@ -7148,8 +7148,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseHP        = 97,
         .baseAttack    = 113,
         .baseDefense   = 109,
-        .baseSpeed     = 77,
-        .baseSpAttack  = 157,
+        .baseSpeed     = 207,
+        .baseSpAttack  = 207,
         .baseSpDefense = 127,
         .types = MON_TYPES(TYPE_PSYCHIC, TYPE_GHOST),
         .catchRate = 3,
@@ -7220,12 +7220,12 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 #if P_ULTRA_BURST_FORMS
     [SPECIES_NECROZMA_ULTRA] =
     {
-        .baseHP        = 97,
-        .baseAttack    = 167,
-        .baseDefense   = 97,
-        .baseSpeed     = 129,
-        .baseSpAttack  = 167,
-        .baseSpDefense = 97,
+        .baseHP        = 200,
+        .baseAttack    = 20,
+        .baseDefense   = 255,
+        .baseSpeed     = 255,
+        .baseSpAttack  = 255,
+        .baseSpDefense = 150,
         .types = MON_TYPES(TYPE_PSYCHIC, TYPE_DRAGON),
         .catchRate = 3,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 377 : 339,
