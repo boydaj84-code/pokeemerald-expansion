@@ -6664,12 +6664,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_DIALGA_ORIGIN] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 120,
-        .baseSpeed     = 90,
+        .baseHP        = 150,
+        .baseAttack    = 150,
+        .baseDefense   = 150,
+        .baseSpeed     = 150,
         .baseSpAttack  = 150,
-        .baseSpDefense = 120,
+        .baseSpDefense = 150,
         .types = MON_TYPES(TYPE_STEEL, TYPE_DRAGON),
         .catchRate = 3,
         .expYield = 340,
