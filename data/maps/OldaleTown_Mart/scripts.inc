@@ -82,7 +82,7 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_RUSTED_SHIELD
 	.2byte ITEM_REVEAL_GLASS
 	.2byte ITEM_PRISON_BOTTLE
-    .2byte ITEM_LINK_STONE
+    .2byte ITEM_LINKING_CORD
 	pokemartlistend
 
 OldaleTown_Mart_ExpandedItems::
@@ -162,7 +162,7 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_RUSTED_SHIELD
 	.2byte ITEM_REVEAL_GLASS
 	.2byte ITEM_PRISON_BOTTLE
-    .2byte ITEM_LINK_STONE
+    .2byte ITEM_LINKING_CORD
 	pokemartlistend
 
 OldaleTown_Mart_EventScript_Woman::
