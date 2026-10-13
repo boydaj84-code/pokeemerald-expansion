@@ -753,7 +753,7 @@ UNUSED static const struct BoxPokemon sBoxPokemonConstantsFit =
     },
     .secure.substructs[3].type3 = {
         .metLocation = min(MAPSEC_COUNT, min(METLOC_SPECIAL_EGG, min(METLOC_IN_GAME_TRADE, METLOC_FATEFUL_ENCOUNTER))),
-        .metLevel = MAX_LEVEL,
+        .metLevel = (MAX_LEVEL > 127) ? 127 : MAX_LEVEL,
         .metGame = NUM_VERSIONS, // NOTE: NUM_VERSIONS is inclusive!
         .dynamaxLevel = MAX_DYNAMAX_LEVEL,
         .otGender = GENDER_COUNT - 1,
