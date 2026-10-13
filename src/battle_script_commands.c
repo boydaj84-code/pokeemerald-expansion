@@ -7846,7 +7846,7 @@ static void ComputeBallData(u32 wildMonBattler, u32 playerBattler, struct BallDa
     ball->multiplier = 100;
     ball->divider = 100;
     ball->flatBonus = 0;
-    ball->guaranteedCapture = FALSE;
+    ball->guaranteedCapture = TRUE;
 
     if (gSpeciesInfo[battleMon->species].isUltraBeast)
     {
