@@ -269,11 +269,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_MEDIUM_FAST(248),
     EXP_MEDIUM_FAST(249),
     EXP_MEDIUM_FAST(250),
-    EXP_MEDIUM_FAST(251),
-    EXP_MEDIUM_FAST(252),
-    EXP_MEDIUM_FAST(253),
-    EXP_MEDIUM_FAST(254),
-    EXP_MEDIUM_FAST(255),
     },
     { // Erratic
         0, // 0
@@ -527,11 +522,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_ERRATIC(248),
     EXP_ERRATIC(249),
     EXP_ERRATIC(250),
-    EXP_ERRATIC(251),
-    EXP_ERRATIC(252),
-    EXP_ERRATIC(253),
-    EXP_ERRATIC(254),
-    EXP_ERRATIC(255),
     },
     { // Fluctuating
         0, // 0
@@ -785,11 +775,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_FLUCTUATING(248),
     EXP_FLUCTUATING(249),
     EXP_FLUCTUATING(250),
-    EXP_FLUCTUATING(251),
-    EXP_FLUCTUATING(252),
-    EXP_FLUCTUATING(253),
-    EXP_FLUCTUATING(254),
-    EXP_FLUCTUATING(255),
     },
     { // Medium Slow
         0, // 0
@@ -1043,11 +1028,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_MEDIUM_SLOW(248),
     EXP_MEDIUM_SLOW(249),
     EXP_MEDIUM_SLOW(250),
-    EXP_MEDIUM_SLOW(251),
-    EXP_MEDIUM_SLOW(252),
-    EXP_MEDIUM_SLOW(253),
-    EXP_MEDIUM_SLOW(254),
-    EXP_MEDIUM_SLOW(255),
     },
     { // Fast
         0, // 0
@@ -1301,11 +1281,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_FAST(248),
     EXP_FAST(249),
     EXP_FAST(250),
-    EXP_FAST(251),
-    EXP_FAST(252),
-    EXP_FAST(253),
-    EXP_FAST(254),
-    EXP_FAST(255),
     },
     { // Slow
         0, // 0
@@ -1559,11 +1534,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_SLOW(248),
     EXP_SLOW(249),
     EXP_SLOW(250),
-    EXP_SLOW(251),
-    EXP_SLOW(252),
-    EXP_SLOW(253),
-    EXP_SLOW(254),
-    EXP_SLOW(255),
     },
     { // Medium Fast copy 2 (unused? to-do: investigate)
         0, // 0
@@ -1817,11 +1787,6 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_MEDIUM_FAST(248),
     EXP_MEDIUM_FAST(249),
     EXP_MEDIUM_FAST(250),
-    EXP_MEDIUM_FAST(251),
-    EXP_MEDIUM_FAST(252),
-    EXP_MEDIUM_FAST(253),
-    EXP_MEDIUM_FAST(254),
-    EXP_MEDIUM_FAST(255),
     },
     { // Medium Fast copy 3 (unused? to-do: investigate)
         0, // 0
@@ -2075,10 +2040,5 @@ const u32 gExperienceTables[][MAX_LEVEL + 1] =
     EXP_MEDIUM_FAST(248),
     EXP_MEDIUM_FAST(249),
     EXP_MEDIUM_FAST(250),
-    EXP_MEDIUM_FAST(251),
-    EXP_MEDIUM_FAST(252),
-    EXP_MEDIUM_FAST(253),
-    EXP_MEDIUM_FAST(254),
-    EXP_MEDIUM_FAST(255),
     }
 };
