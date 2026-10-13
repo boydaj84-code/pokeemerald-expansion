@@ -6811,7 +6811,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_PALKIA_ORIGIN] =
     {
-        .baseHP        = 75,
+        .baseHP        = 50,
         .baseAttack    = 200,
         .baseDefense   = 75,
         .baseSpeed     = 200,
