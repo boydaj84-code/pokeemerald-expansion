@@ -3492,6 +3492,15 @@ static void TryDoEventsBeforeFirstTurn(void)
                     else if (gBattleMons[battler].statStages[stat] < MIN_STAT_STAGE)
                         gBattleMons[battler].statStages[stat] = MIN_STAT_STAGE;
                 }
+                        if (gBattleMons[battler].ability == ABILITY_MULTITYPE)
+        {
+            gBattleMons[battler].statStages[STAT_ATK]   = MAX_STAT_STAGE;
+            gBattleMons[battler].statStages[STAT_DEF]   = MAX_STAT_STAGE;
+            gBattleMons[battler].statStages[STAT_SPATK] = MAX_STAT_STAGE;
+            gBattleMons[battler].statStages[STAT_SPDEF] = MAX_STAT_STAGE;
+            gBattleMons[battler].statStages[STAT_SPEED] = MAX_STAT_STAGE;
+        }
+
             }
 
             gBattlerAttacker = battler;
